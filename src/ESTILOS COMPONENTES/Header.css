@@ -1,0 +1,44 @@
+
+.componente-header{
+    background-color: rgb(31, 36, 32);
+
+    height: 80px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: "montserrat";
+    color: white;
+
+}
+.componente-header-cont-imagen{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.componente-header-cont-imagen img{
+    height: 30px;
+    width: 30px;
+}
+.componenete-header-cont-titulo{
+    width: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 800;
+}
+.componenete-header-cont-usuario{
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
