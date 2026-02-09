@@ -57,7 +57,7 @@
 }
 
 .tecla-especial {
-  min-width: 72px;
+  width: 72px;
 }
 
 /* Colores de estado */
@@ -121,5 +121,16 @@
 
     .btn-reinicio{
       width: 50%;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .tecla{
+      width: 33px;
+    }
+    .tecla-especial{
+      width:55px;
+      font-size: 10px;
     }
 }
