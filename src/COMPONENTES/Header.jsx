@@ -8,7 +8,7 @@ const Header = () => {
         <div className='componente-header'> 
 
                 <div className='componente-header-cont-imagen'><img src="/informacion.png" alt="info" /></div>
-                <h1 className='componenete-header-cont-titulo'>WORDLE</h1>
+                <h1 className='componenete-header-cont-titulo'>WORDLE ARGENTINO</h1>
                 <div className='componenete-header-cont-usuario'></div>
         </div>
 

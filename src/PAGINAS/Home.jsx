@@ -95,9 +95,14 @@ const Home = () => {
   return (
     <div className='cont-pagina-home'>
 
+        {/* Video de Fondo */}
+        <video autoPlay muted loop playsInline className="background-video">
+            <source src="/fondovideo.mp4" type="video/mp4" />
+        </video>
+
         <Header />
 
-      <section className='home-seccion'>
+        <section className='home-seccion'>
 
           <div className='home-cont-cuadrilla'>
 
@@ -173,7 +178,8 @@ const Home = () => {
               </div>
           }
 
-      </section>
+        </section>
+
     </div>
   );
 };
